@@ -44,7 +44,7 @@ Finished
 ==============================
 
 To launch the container, type:
-cd $HOSTNAME
+cd test
 ./run
 
 Have a lot of fun!
