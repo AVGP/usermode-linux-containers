@@ -11,7 +11,7 @@ echo "
             address 10.10.10.1
             netmask 255.255.255.0
             tunctl_user uml-net
-" > /etc/network/interfaces
+" >> /etc/network/interfaces
 
 echo "Adding the switched device to /etc/defaults/uml-utilities..."
 echo 'UML_SWITCH_OPTIONS="-tap tap0"' >> /etc/defaults/uml-utilities
