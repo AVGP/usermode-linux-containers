@@ -8,7 +8,7 @@ echo "
 
     auto tap0
     iface tap0 inet static
-            address 10.1.0.1
+            address 10.10.10.1
             netmask 255.255.255.0
             tunctl_user uml-net
 " > /etc/network/interfaces
